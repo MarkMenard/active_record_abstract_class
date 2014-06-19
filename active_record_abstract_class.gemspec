@@ -7,8 +7,9 @@ Gem::Specification.new do |s|
   s.date        = '2014-06-19'
   s.summary     = 'ActiveRecord abstract class'
   s.description = 'Make ActiveRecord classes non-persistable with a module'
-  s.authors     = ['Jonathan Chapman']
-  s.email       = 'sa@enablelabs.com'
+  s.authors     = ['Enable Labs', 'Jonathan Chapman']
+  s.email       = ['sa@enablelabs.com', 'chapmajs@gmail.com']
   s.files       = Dir['LICENSE', 'README.md', '{lib}/**/*']
   s.license     = 'MIT'
+  s.homepage    = 'https://github.com/enable-labs/active_record_abstract_class'
 end
